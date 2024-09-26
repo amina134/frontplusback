@@ -1,0 +1,54 @@
+.player-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    height:700px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.player-image {
+    width: 100%;  /* Make the image fill the width of the div */
+    height: 100%; /* Make the image fill the height of the div */
+   
+    height: auto;
+    border-radius: 10%;
+   
+}
+image-container{
+    object-fit: cover;
+}
+
+
+.button-container {
+    display: flex;
+    
+    gap:4px;
+    position: absolute;
+    top:110%;
+
+}
+
+.update-button, .delete-button {
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+.update-button {
+    background-color: #007bff;
+}
+
+.delete-button {
+    background-color: #dc3545;
+}
+.hey{
+    text-align: left;
+    color:rgb(75, 61, 61);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
